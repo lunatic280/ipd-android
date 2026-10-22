@@ -46,4 +46,6 @@ QR 파싱은 원래 예제를 보존했으며 실제 적용에는 형식·길이
 
 기존 [LICENSE](LICENSE)의 권리 유보 조건을 유지합니다. 새로운 오픈소스 라이선스를 부여한 것은 아니며, 프로젝트 참여자의 공개 동의를 전제로 공개를 준비했습니다.
 
-외부 라이브러리는 [app/build.gradle](app/build.gradle)과 [버전 목록](gradle/libs.versions.toml)에 명시되어 있고 각 구성요소의 라이선스·서비스 이용 조건을 따릅니다. Gradle wrapper와 기존 파일의 저작권 고지를 유지합니다. 실제 사용자 사진, 서비스 캡처나 외부 샘플 이미지 파일은 추가하지 않았습니다.
+외부 라이브러리는 [app/build.gradle](app/build.gradle)과 [버전 목록](gradle/libs.versions.toml)에 명시되어 있고 각 구성요소의 라이선스·서비스 이용 조건을 따릅니다. 실제 사용자 사진, 서비스 캡처나 외부 샘플 이미지 파일은 추가하지 않았습니다.
+
+Gradle wrapper(`gradle/wrapper/gradle-wrapper.jar`, `gradlew`, `gradlew.bat`)에는 [Apache License 2.0 전문](gradle/wrapper/LICENSE)이 적용되며 기존 파일의 저작권 고지를 유지합니다. 이 고지는 Gradle wrapper에 대한 것으로, 프로젝트 자체의 [LICENSE](LICENSE)를 변경하지 않습니다.
